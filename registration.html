@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Journey Laurice</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pinklogo.webp" type="image/webp">
+</head>
+
+<body>
+
+<div id="cover">
+
+<header>
+    <h1>Registration</h1>
+</header>
+
+<nav>
+    <b>
+        <a href="index.html">Home</a> &nbsp;
+        <a href="about.html">About Me</a> &nbsp;
+        <a href="college.html">College Life</a> &nbsp;
+        <a href="hobbies.html">Hobbies</a> &nbsp;
+        <a href="growth.html">Personal Growth</a> &nbsp;
+        <a href="blog.html">Blog Updates</a> &nbsp;
+        <a href="registration.html">Registration</a> &nbsp;
+    </b>
+</nav>
+
+<main>
+
+<h2>Register to get Notifications</h2>
+<h3>Get updates on when I post!</h3>
+
+<p>Required fields are marked with an asterisk *</p>
+
+<form method="post" action="https://webdevices.net/Scripts/pacific.php">
+
+    <label for="myFName">*First Name:</label>
+    <input type="text" id="myFName" name="myFName" required>
+
+    <label for="myLName">*Last Name:</label>
+    <input type="text" id="myLName" name="myLName" required>
+
+    <label for="myDOB">*Date of Birth:</label>
+    <input type="date" id="myDOB" name="myDOB" required>
+
+    <label for="myPhone">*Phone:</label>
+    <input type="tel" id="myPhone" name="myPhone" required>
+
+    <label for="myComments">Comments:</label>
+    <textarea id="myComments" name="myComments" rows="4" cols="50" required></textarea>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+<button onclick="showInfo()">Click for Info</button>
+
+</main>
+
+<footer>
+    <small>
+        Copyright &copy; 2025 Journey Laurice <br>
+        <a href="mailto:ja24618@georgiasouthern.edu">
+            ja24618@georgiasouthern.edu
+        </a>
+    </small>
+</footer>
+
+</div>
+
+<script>
+function showInfo() {
+    alert("Fill out all fields before submitting!");
+}
+</script>
+
+</body>
+</html>
